@@ -1,4 +1,3 @@
-
 # Reference:
 # "W. Huang, W. Wang, Y. Li, W. Wu. FBSTCNet: A Spatio-Temporal Convolutional Network Integrating Power and Connectivity Features for EEG-Based Emotion Decoding. 2023. (under review)"
 
@@ -21,7 +20,6 @@ from braindecode import EEGClassifier
 from torch.optim import AdamW
 from braindecode.training import CroppedLoss
 from braindecode.util import set_random_seeds
-from braindecode.models import get_output_shape
 from sklearn.metrics import confusion_matrix
 
 

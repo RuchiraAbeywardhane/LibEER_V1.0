@@ -19,7 +19,7 @@ from skorch.callbacks import LRScheduler
 from torch.optim import AdamW
 from braindecode.training import CroppedLoss
 from braindecode.util import set_random_seeds
-from braindecode.models import get_output_shape
+# removed: from braindecode.models import get_output_shape  (unused & removed in newer braindecode)
 from sklearn.metrics import confusion_matrix
 
 from braindecode.util import np_to_th
